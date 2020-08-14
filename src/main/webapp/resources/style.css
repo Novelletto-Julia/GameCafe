@@ -1,0 +1,176 @@
+body{
+	background-color:rgba(0,0,0);
+	overflow-x: hidden;
+}
+p{
+	font-size: 22px;
+	color:rgb(255,255,255, .6);
+}
+#p2{
+	font-size: 18px;
+	color:rgb(199,136,255);
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+h1{
+	color:rgb(199,136,255);
+}
+
+h2{
+	color:rgb(255,255,255);
+}
+#acolor{
+	color:rgb(199,136,255);
+}
+
+#acolor:hover{
+	color:rgb(160,72,231);
+}
+
+#surface{
+	/*Create a surface overlay -- W3Schools (https://www.w3schools.com/howto/howto_css_overlay.asp)*/ 
+	background-color:rgba(0,0,0,0.11);
+}
+
+#colback{
+	 background-color:rgba(35,35,35);
+	 padding-bottom: 25px;
+	 padding-top: 25px;
+}
+
+/*Solution by Dominic Fraser. Stick footer to bottom page without appear in front of text */
+/*Reference: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/*/
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 11.5rem;    /* Footer height */
+}
+
+#footer {
+  background-color:rgba(35,35,35);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 11.5rem;            /* Footer height */
+}
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  
+  td, th{
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  }
+  
+  th{
+  font-size: 22px;
+  color:white;
+  }
+  
+  td{
+  	font-size: 22px;
+  	color:rgb(255,255,255, .6);
+  }
+  
+  td:hover{
+  color:white;
+  }
+  
+  #register{
+  padding-top: 20px;
+  padding-bottom: 55px;
+  }
+  
+  button{
+  color:Black;
+  background-color:rgb(199,136,255);
+  border: none;
+  padding: 8px 25px;
+  font-size: 20px;
+  border-radius: 8px;
+  }
+  
+  button:hover{
+  color:white;
+  background-color:rgb(160,72,231);
+  border: none;
+  padding: 8px 25px;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 8px;
+  }
+  
+  label{
+  color:white;
+  font-size: 18px;
+  }
+  
+  input{
+  color:rgb(123,44,191);
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 16px;
+  }
+  /*Create input radio appearence*/
+  /*Based on Vadim Ovchinnikov code provided in stackoverflow. Reference: https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons*/
+ input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+}
+
+/*checked radiobutton */
+input[type="radio"]:checked {
+  background-color: rgb(199,136,255);
+}
+
+  .login{
+  padding-bottom: 30px;
+  }
+  .loginpage{
+    padding-bottom: 347px;
+  }
+  
+  .link{
+  color:rgb(160,72,231);
+  }
+  
+  .link:hover{
+  color:white;
+  }
+  
+  .order{
+  	padding-top: 20px;
+   padding-bottom: 25px;
+  }
+
+  
+  select{
+  color:rgb(123,44,191);
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  }
+
+  }
