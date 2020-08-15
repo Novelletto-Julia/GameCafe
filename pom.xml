@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	
-	<!-- The structure of this project and database connection was created base on CodeJava tutorial -->
+	<!-- The structure of this project, DAOs and database connection was created base on CodeJava tutorial -->
 	<!-- Reference: https://www.codejava.net/frameworks/spring/spring-mvc-with-jdbctemplate-example -->
 	<modelVersion>4.0.0</modelVersion>
 
